@@ -1,10 +1,9 @@
-package loops
+package games
 
 import "fmt"
 
-//
 func Demo3() {
-	myNumber := 15
+	myNumber := 15 // use a random number
 	estimatedNumber := 1
 	guessAmount := 0
 

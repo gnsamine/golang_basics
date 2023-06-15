@@ -1,9 +1,7 @@
 package main
 
 import (
-	"fmt"
-	"golessons/loops"
-	"golessons/variables"
+	"golessons/games"
 )
 
 func main() {
@@ -14,14 +12,7 @@ func main() {
 	//variables.Demo1()
 	//loops.Demo1()
 	//loops.Demo2()
-
 	//loops.Demo3()
-	loops.Game1()
-
-}
-func sd() {
-
-	fmt.Println("ee")
-	variables.Demo1()
+	games.TwoGames()
 
 }
