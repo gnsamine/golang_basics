@@ -1,9 +1,12 @@
 package games
 
-import "fmt"
+import (
+	"fmt"
+	"math/rand"
+)
 
 func Demo3() {
-	myNumber := 15 // use a random number
+	myNumber := rand.Intn(100 - 0) // use a random number
 	estimatedNumber := 1
 	guessAmount := 0
 

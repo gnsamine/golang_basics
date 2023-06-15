@@ -2,6 +2,7 @@ package games
 
 import (
 	"fmt"
+	"math/rand"
 )
 
 func TwoGames() {
@@ -62,7 +63,7 @@ func TwoGames() {
 		}
 
 	} else if gamenumber == 2 {
-		myNumber := 15
+		myNumber := rand.Intn(100 - 0)
 		estimatedNumber := 1
 		guessAmount := 0
 
