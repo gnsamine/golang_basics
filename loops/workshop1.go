@@ -35,7 +35,7 @@ func Demo3() {
 		} else if guessAmount > 3 && guessAmount <= 5 {
 			guessStanding = "good job"
 		} else {
-			guessStanding = "quit to that job"
+			guessStanding = "quit from that job"
 		}
 
 		fmt.Printf("congratulations. %v guess : %v ", guessAmount, guessStanding)
