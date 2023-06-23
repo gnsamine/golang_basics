@@ -4,7 +4,7 @@ func EvenNumbers(EvenNumberCn chan int) {
 	addition := 0
 	for i := 0; i <= 10; i += 2 {
 
-		addition = addition + 1
+		addition = addition + 2
 
 	}
 	EvenNumberCn <- addition
