@@ -3,6 +3,7 @@ package games
 import (
 	"fmt"
 	"math/rand"
+	"time"
 )
 
 func TwoGames() {
@@ -26,7 +27,7 @@ func TwoGames() {
 		number := 0
 		var sth int = 0
 
-		fmt.Print("keep a number in your mind and dont tell me what you kept. you can give me every number that you want to fool me for every step")
+		fmt.Print("keep a number in your mind and dont tell me what you kept. ")
 		fmt.Scanln(&number)
 		fmt.Print("add +1 to your number")
 		fmt.Scanln(&number)
@@ -63,13 +64,16 @@ func TwoGames() {
 		}
 
 	} else if gamenumber == 2 {
-		myNumber := rand.Intn(100 - 0)
+
+		rand.Seed(time.Now().UnixNano())
+		myNumber := rand.Intn(100) + 1 // use a random number
 		estimatedNumber := 1
 		guessAmount := 0
 
-		fmt.Println("keep a number in your mind between 1 to 100")
+		fmt.Println("try to estimate the number that I choose randomly.")
 		fmt.Scanln(&estimatedNumber)
 		guessAmount = guessAmount + 1
+
 		if estimatedNumber > 0 && estimatedNumber <= 100 {
 
 			for estimatedNumber != myNumber {
