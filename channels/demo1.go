@@ -1,22 +1,22 @@
 package channels
 
-func EvenNumbers(EvenNumberCn chan int) {
+func EvenNumbers(evenNumberCn chan int) {
 	addition := 0
 	for i := 0; i <= 10; i += 2 {
 
-		addition = addition + 2
+		addition = addition + i
 
 	}
-	EvenNumberCn <- addition
+	evenNumberCn <- addition
 
 }
 
-func OddNumbers(OddNumberCn chan int) {
+func OddNumbers(oddNumberCn chan int) {
 	addition := 0
 	for i := 1; i <= 10; i += 2 {
-		addition = addition + 1
+		addition = addition + i
 
 	}
-	OddNumberCn <- addition
+	oddNumberCn <- addition
 
 }

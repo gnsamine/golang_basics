@@ -1,7 +1,8 @@
 package main
 
 import (
-	"golessons/pointers"
+	"golessons/deferstatement"
+	"golessons/games"
 )
 
 func main() {
@@ -13,7 +14,7 @@ func main() {
 	//loops.Demo1()
 	//loops.Demo2()
 	//loops.Demo3()
-	//games.TwoGames()
+	games.TwoGames()
 	//oops.Demo4()
 	//arrays.Demo2()
 	//arrays.Demo4()
@@ -49,7 +50,7 @@ func main() {
 	//pointers.Demo1(&number)
 	//fmt.Println("actual number:", number)
 
-	pointers.Test()
+	//pointers.Test()
 
 	// // //structs.Demo1()
 	// // //structs.Demo2()
@@ -67,8 +68,12 @@ func main() {
 
 	// evenNumberCnAddition, oddNumberCnAddition := <-evenNumberCn, <-oddNumberCn
 
-	// addition := evenNumberCnAddition + oddNumberCnAddition
+	// addition := evenNumberCnAddition * oddNumberCnAddition
 	// fmt.Println("multiplication:", addition)
 	//games.TwoGames()
 
+	//interfaces.Demo1()
+	//interfaces.Demo2()
+	//deferstatement.B()
+	deferstatement.Test()
 }
