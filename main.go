@@ -1,9 +1,6 @@
 package main
 
-import (
-	"golessons/deferstatement"
-	"golessons/games"
-)
+import "golessons/stringfunctions"
 
 func main() {
 	//sd()
@@ -14,7 +11,7 @@ func main() {
 	//loops.Demo1()
 	//loops.Demo2()
 	//loops.Demo3()
-	games.TwoGames()
+	//games.TwoGames()
 	//oops.Demo4()
 	//arrays.Demo2()
 	//arrays.Demo4()
@@ -75,5 +72,14 @@ func main() {
 	//interfaces.Demo1()
 	//interfaces.Demo2()
 	//deferstatement.B()
-	deferstatement.Test()
+	//deferstatement.Test()
+	//deferstatement.Demo3()
+	//errorhandling.Demo1()
+
+	//interfaces.Demo3()
+	//errorhandling.Demo2()
+
+	//fmt.Println(errorhandling.Guess2(150))
+	//stringfunctions.Demo1()
+	stringfunctions.Demo2()
 }

@@ -13,7 +13,7 @@ func Demo2(number int32) string {
 		return "odd number"
 	}
 
-	return " "
+	return "...end "
 }
 
 func Test() {
