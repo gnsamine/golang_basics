@@ -1,6 +1,6 @@
 package main
 
-import "golessons/stringfunctions"
+import "golessons/project"
 
 func main() {
 	//sd()
@@ -81,5 +81,11 @@ func main() {
 
 	//fmt.Println(errorhandling.Guess2(150))
 	//stringfunctions.Demo1()
-	stringfunctions.Demo2()
+	//stringfunctions.Demo2()
+	// restful.Demo1()
+	// restful.Demo2()
+
+	project.AddProduct()
+	project.GetAllProducts()
+
 }
