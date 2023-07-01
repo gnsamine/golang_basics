@@ -39,7 +39,7 @@ func AddProduct() {
 	product := Product{Id: 4, ProductName: "Telephone", CategoryId: 1, UnitPrice: 5000.0}
 	jsonProduct, _ := json.Marshal(product)
 
-	response, err := http.Post("http://localhost:3000/products", "application/jason;charset=utf-8", bytes.NewBuffer(jsonProduct))
+	response, err := http.Post("http://localhost:3000/products", "application/json;charset=utf-8", bytes.NewBuffer(jsonProduct))
 
 	if err != nil {
 		fmt.Println(err)

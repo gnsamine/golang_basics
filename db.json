@@ -19,10 +19,10 @@
       "unitPrice": 5.99
     },
     {
-      "id": 4
-    },
-    {
-      "id": 5
+      "id": 4,
+      "productName": "Telephone",
+      "categoryId": 1,
+      "unitPrice": 5000
     }
   ],
   "categories": [

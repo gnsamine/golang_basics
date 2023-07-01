@@ -51,7 +51,7 @@ func Demo2() {
 	if err != nil {
 		fmt.Println(err)
 	}
-	response, err := http.Post("https://jasonplaceholder.typicode.com/todos", "application/jason;charset=utf-8", bytes.NewBuffer(jsonTodo))
+	response, err := http.Post("https://jsonplaceholder.typicode.com/todos", "application/jason;charset=utf-8", bytes.NewBuffer(jsonTodo))
 
 	if err != nil {
 		fmt.Println(err)
