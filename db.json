@@ -23,6 +23,12 @@
       "productName": "Telephone",
       "categoryId": 1,
       "unitPrice": 5000
+    },
+    {
+      "id": 5,
+      "productName": "microphone",
+      "categoryId": 1,
+      "unitPrice": 5000
     }
   ],
   "categories": [

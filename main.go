@@ -1,6 +1,9 @@
 package main
 
-import "golessons/project"
+import (
+	"fmt"
+	"golessons/project"
+)
 
 func main() {
 	//sd()
@@ -85,7 +88,19 @@ func main() {
 	// restful.Demo1()
 	// restful.Demo2()
 
-	project.AddProduct()
-	project.GetAllProducts()
+	//project.AddProduct()
+	//project.GetAllProducts()
+
+	products, _ := project.GetAllProducts2()
+
+	for i := 0; i < len(products); i++ {
+		fmt.Println(products[i])
+	}
+	for i := 0; i < len(products); i++ {
+		fmt.Println(products[i].ProductName)
+	}
+
+	//product, _ := project.AddProduct2()
+	//fmt.Println(product)
 
 }
